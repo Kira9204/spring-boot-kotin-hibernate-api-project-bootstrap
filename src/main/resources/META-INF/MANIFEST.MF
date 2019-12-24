@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Class-Path: hamcrest-library-1.3.jar xmlunit-core-2.6.2.jar jersey-con
+ tainer-servlet-2.27.jar spring-boot-starter-2.1.4.RELEASE.jar kotlin-
+ stdlib-jdk8-1.3.21.jar accessors-smart-1.2.jar jersey-server-2.27.jar
+  spring-beans-5.1.6.RELEASE.jar jakarta.xml.bind-api-2.3.2.jar junit-
+ 4.12.jar spring-data-commons-2.1.6.RELEASE.jar log4j-api-2.11.2.jar o
+ sgi-resource-locator-1.0.1.jar mimepull-1.9.11.jar spring-boot-starte
+ r-logging-2.1.4.RELEASE.jar kotlin-stdlib-1.3.21.jar spring-boot-star
+ ter-jdbc-2.1.4.RELEASE.jar spring-boot-2.1.4.RELEASE.jar jackson-anno
+ tations-2.9.0.jar commons-beanutils-1.9.2.jar hk2-api-2.5.0-b42.jar a
+ ndroid-json-0.0.20131108.vaadin1.jar commons-digester-1.8.1.jar dom4j
+ -2.1.1.jar javax.annotation-api-1.3.2.jar javax.inject-1.jar spring-j
+ cl-5.1.6.RELEASE.jar jersey-media-jaxb-2.27.jar jersey-entity-filteri
+ ng-2.27.jar jackson-datatype-jdk8-2.9.8.jar jackson-databind-2.9.8.ja
+ r log4j-to-slf4j-2.11.2.jar spring-boot-test-autoconfigure-2.1.4.RELE
+ ASE.jar hamcrest-core-1.3.jar javax.activation-api-1.2.0.jar javax.in
+ ject-2.5.0-b42.jar spring-test-5.1.6.RELEASE.jar json-smart-2.3.jar s
+ pring-boot-starter-aop-2.1.4.RELEASE.jar asm-5.0.4.jar annotations-13
+ .0.jar spring-boot-test-2.1.4.RELEASE.jar jackson-module-parameter-na
+ mes-2.9.8.jar jersey-hk2-2.27.jar spring-orm-5.1.6.RELEASE.jar classm
+ ate-1.4.0.jar jul-to-slf4j-1.7.26.jar mysql-connector-java-8.0.15.jar
+  jandex-2.0.5.Final.jar spring-aspects-5.1.6.RELEASE.jar spring-jdbc-
+ 5.1.6.RELEASE.jar jersey-container-servlet-core-2.27.jar kotlin-refle
+ ct-1.3.21.jar javax.persistence-api-2.2.jar spring-data-jpa-2.1.6.REL
+ EASE.jar hibernate-commons-annotations-5.0.4.Final.jar spring-boot-st
+ arter-tomcat-2.1.4.RELEASE.jar activation-1.1.1.jar class-model-2.5.0
+ -b42.jar hibernate-validator-6.0.16.Final.jar jersey-common-2.27.jar 
+ hibernate-core-5.3.9.Final.jar config-types-2.5.0-b42.jar hk2-config-
+ 2.5.0-b42.jar tomcat-embed-core-9.0.17.jar tomcat-embed-websocket-9.0
+ .17.jar stax-ex-1.8.1.jar asm-all-repackaged-2.5.0-b42.jar jersey-spr
+ ing4-2.27.jar byte-buddy-1.9.12.jar hk2-runlevel-2.5.0-b42.jar jaxb-a
+ pi-2.3.1.jar hk2-locator-2.5.0-b42.jar istack-commons-runtime-3.0.8.j
+ ar spring-boot-starter-test-2.1.4.RELEASE.jar spring-aop-5.1.6.RELEAS
+ E.jar spring-context-5.1.6.RELEASE.jar slf4j-api-1.7.26.jar commons-v
+ alidator-1.6.jar jackson-datatype-jsr310-2.9.8.jar kotlin-stdlib-jdk7
+ -1.3.21.jar spring-core-5.1.6.RELEASE.jar FastInfoset-1.2.16.jar spri
+ ng-bridge-2.5.0-b42.jar spring-boot-starter-validation-2.1.4.RELEASE.
+ jar jaxb-runtime-2.3.2.jar objenesis-2.6.jar snakeyaml-1.23.jar logba
+ ck-classic-1.2.3.jar hk2-core-2.5.0-b42.jar spring-boot-starter-data-
+ jpa-2.1.4.RELEASE.jar jackson-core-2.9.8.jar byte-buddy-agent-1.9.12.
+ jar jackson-module-kotlin-2.9.8.jar jboss-logging-3.3.2.Final.jar asp
+ ectjweaver-1.9.2.jar spring-boot-starter-json-2.1.4.RELEASE.jar hk2-2
+ .5.0-b42.jar tika-core-1.20.jar spring-boot-starter-jersey-2.1.4.RELE
+ ASE.jar javassist-3.23.1-GA.jar spring-web-5.1.6.RELEASE.jar HikariCP
+ -3.2.0.jar antlr-2.7.7.jar hk2-utils-2.5.0-b42.jar kotlin-stdlib-comm
+ on-1.3.21.jar jersey-bean-validation-2.27.jar jsonassert-1.5.0.jar mo
+ ckito-core-2.23.4.jar tomcat-embed-el-9.0.17.jar commons-logging-1.2.
+ jar jersey-media-multipart-2.28.jar jersey-media-json-jackson-2.27.ja
+ r json-path-2.4.0.jar spring-tx-5.1.6.RELEASE.jar aopalliance-repacka
+ ged-2.5.0-b42.jar javax.transaction-api-1.3.jar jackson-module-jaxb-a
+ nnotations-2.9.8.jar jakarta.activation-api-1.2.1.jar jersey-client-2
+ .27.jar txw2-2.3.2.jar logback-core-1.2.3.jar commons-collections-3.2
+ .2.jar spring-boot-autoconfigure-2.1.4.RELEASE.jar javax.ws.rs-api-2.
+ 1.jar spring-expression-5.1.6.RELEASE.jar assertj-core-3.11.1.jar val
+ idation-api-2.0.1.Final.jar
+Main-Class: se.erikwelander.apis.ApisApplicationKt
+

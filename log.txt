@@ -1,0 +1,406 @@
+2019-05-05 04:08:16.616  INFO 31358 --- [main] se.erikwelander.apis.ApisApplicationKt   : Starting ApisApplicationKt on erikwelander with PID 31358 (/home/erik/IdeaProjects/apis/out/production/classes started by erik in /home/erik/IdeaProjects/apis)
+2019-05-05 04:08:16.619  INFO 31358 --- [main] se.erikwelander.apis.ApisApplicationKt   : No active profile set, falling back to default profiles: default
+2019-05-05 04:08:16.940  INFO 31358 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 04:08:16.988  INFO 31358 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 2 repository interfaces.
+2019-05-05 04:08:17.277  INFO 31358 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfiguration' of type [se.erikwelander.apis.configuration.DataSourceConfiguration$$EnhancerBySpringCGLIB$$436f3b3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 04:08:17.484  INFO 31358 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 04:08:17.500  INFO 31358 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 04:08:17.500  INFO 31358 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 04:08:17.567  INFO 31358 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-05-05 04:08:17.567  INFO 31358 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 917 ms
+2019-05-05 04:08:17.723  INFO 31358 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-05 04:08:18.313  INFO 31358 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-05 04:08:18.338  INFO 31358 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-05 04:08:18.364  INFO 31358 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-05 04:08:18.365  INFO 31358 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-05 04:08:18.425  INFO 31358 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-05 04:08:18.487  INFO 31358 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-05 04:08:18.763  INFO 31358 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 04:08:18.909  INFO 31358 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-05 04:08:19.094  INFO 31358 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-05 04:08:19.097  INFO 31358 --- [main] se.erikwelander.apis.ApisApplicationKt   : Started ApisApplicationKt in 2.856 seconds (JVM running for 3.375)
+2019-05-05 04:08:39.062  INFO 31358 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 04:08:39.065  INFO 31358 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-05 04:08:39.069  INFO 31358 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-05 04:56:46.123  INFO 3989 --- [main] se.erikwelander.apis.ApisApplicationKt   : Starting ApisApplicationKt on erikwelander with PID 3989 (/home/erik/IdeaProjects/apis/out/production/classes started by erik in /home/erik/IdeaProjects/apis)
+2019-05-05 04:56:46.129  INFO 3989 --- [main] se.erikwelander.apis.ApisApplicationKt   : No active profile set, falling back to default profiles: default
+2019-05-05 04:56:46.482  INFO 3989 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 04:56:46.529  INFO 3989 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 2 repository interfaces.
+2019-05-05 04:56:46.762  INFO 3989 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfiguration' of type [se.erikwelander.apis.configuration.DataSourceConfiguration$$EnhancerBySpringCGLIB$$bb4cfc0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 04:56:46.955  INFO 3989 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 04:56:46.972  INFO 3989 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 04:56:46.972  INFO 3989 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 04:56:47.046  INFO 3989 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-05-05 04:56:47.046  INFO 3989 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 890 ms
+2019-05-05 04:56:47.186  INFO 3989 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-05 04:56:47.918  INFO 3989 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-05 04:56:47.946  INFO 3989 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-05 04:56:47.971  INFO 3989 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-05 04:56:47.972  INFO 3989 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-05 04:56:48.028  INFO 3989 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-05 04:56:48.097  INFO 3989 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-05 04:56:48.355  INFO 3989 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 04:56:48.497  INFO 3989 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-05 04:56:48.649  INFO 3989 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-05 04:56:48.651  INFO 3989 --- [main] se.erikwelander.apis.ApisApplicationKt   : Started ApisApplicationKt in 2.752 seconds (JVM running for 3.293)
+2019-05-05 04:56:50.591  INFO 3989 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 04:56:50.594  INFO 3989 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-05 04:56:50.598  INFO 3989 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-05 05:15:31.771  INFO 6032 --- [main] se.erikwelander.apis.ApisApplicationKt   : Starting ApisApplicationKt v0.0.1-SNAPSHOT on erikwelander with PID 6032 (/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar started by erik in /home/erik/IdeaProjects/apis)
+2019-05-05 05:15:31.773  INFO 6032 --- [main] se.erikwelander.apis.ApisApplicationKt   : No active profile set, falling back to default profiles: default
+2019-05-05 05:15:32.218  INFO 6032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 05:15:32.290  INFO 6032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 2 repository interfaces.
+2019-05-05 05:15:32.582  INFO 6032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfiguration' of type [se.erikwelander.apis.configuration.DataSourceConfiguration$$EnhancerBySpringCGLIB$$c5465cf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 05:15:32.918  INFO 6032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 05:15:32.942  INFO 6032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 05:15:32.943  INFO 6032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 05:15:33.004  INFO 6032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-05-05 05:15:33.005  INFO 6032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1186 ms
+2019-05-05 05:15:33.048 ERROR 6032 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/se/erikwelander/apis/configuration/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+2019-05-05 05:15:33.067  INFO 6032 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-05 05:15:33.073  WARN 6032 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-05-05 05:15:33.081  INFO 6032 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-05 05:15:33.088 ERROR 6032 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at se.erikwelander.apis.ApisApplicationKt.main(ApisApplication.kt:18) [classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_212]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:125) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:427) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/se/erikwelander/apis/configuration/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:235) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:101) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:88) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_212]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[na:1.8.0_212]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_212]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[na:1.8.0_212]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:455) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/se/erikwelander/apis/configuration/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:304) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:171) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	... 70 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:300) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	... 84 common frames omitted
+Caused by: org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.create(JarZipSchemeResourceFinderFactory.java:90) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.create(JarZipSchemeResourceFinderFactory.java:66) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.addResourceFinder(PackageNamesScanner.java:283) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.init(PackageNamesScanner.java:199) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.<init>(PackageNamesScanner.java:155) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.<init>(PackageNamesScanner.java:111) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.ResourceConfig.packages(ResourceConfig.java:677) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.ResourceConfig.packages(ResourceConfig.java:657) ~[jersey-server-2.27.jar!/:na]
+	at se.erikwelander.apis.configuration.JerseyConfig.<init>(JerseyConfig.kt:17) ~[classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_212]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_212]
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Constructor.call(CallerImpl.kt:41) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:106) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflect_api(KCallableImpl.kt:152) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:110) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at org.springframework.beans.BeanUtils$KotlinDelegate.instantiateClass(BeanUtils.java:751) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	... 86 common frames omitted
+Caused by: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_212]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_212]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_212]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_212]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[na:1.8.0_212]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[na:1.8.0_212]
+	at java.net.URL.openStream(URL.java:1045) ~[na:1.8.0_212]
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.getInputStream(JarZipSchemeResourceFinderFactory.java:178) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.create(JarZipSchemeResourceFinderFactory.java:88) ~[jersey-server-2.27.jar!/:na]
+	... 104 common frames omitted
+
+2019-05-05 05:23:22.800  INFO 7184 --- [main] se.erikwelander.apis.ApisApplicationKt   : Starting ApisApplicationKt v0.0.1-SNAPSHOT on erikwelander with PID 7184 (/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar started by erik in /home/erik/IdeaProjects/apis)
+2019-05-05 05:23:22.803  INFO 7184 --- [main] se.erikwelander.apis.ApisApplicationKt   : No active profile set, falling back to default profiles: default
+2019-05-05 05:23:23.256  INFO 7184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 05:23:23.313  INFO 7184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 2 repository interfaces.
+2019-05-05 05:23:23.592  INFO 7184 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfiguration' of type [se.erikwelander.apis.configuration.DataSourceConfiguration$$EnhancerBySpringCGLIB$$c5465cf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 05:23:23.940  INFO 7184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 05:23:23.966  INFO 7184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 05:23:23.966  INFO 7184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 05:23:24.040  INFO 7184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-05-05 05:23:24.041  INFO 7184 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1185 ms
+2019-05-05 05:23:24.089 ERROR 7184 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/se/erikwelander/apis/configuration/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+2019-05-05 05:23:24.116  INFO 7184 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-05 05:23:24.123  WARN 7184 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-05-05 05:23:24.131  INFO 7184 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-05 05:23:24.137 ERROR 7184 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at se.erikwelander.apis.ApisApplicationKt.main(ApisApplication.kt:18) [classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_212]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [apis-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:125) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:427) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/se/erikwelander/apis/configuration/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:235) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:101) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:88) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_212]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[na:1.8.0_212]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_212]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[na:1.8.0_212]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:455) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) ~[spring-boot-2.1.4.RELEASE.jar!/:2.1.4.RELEASE]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jerseyConfig' defined in URL [jar:file:/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/se/erikwelander/apis/configuration/JerseyConfig.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:304) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:171) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	... 70 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [se.erikwelander.apis.configuration.JerseyConfig]: Constructor threw exception; nested exception is org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:300) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	... 84 common frames omitted
+Caused by: org.glassfish.jersey.server.internal.scanning.ResourceFinderException: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.create(JarZipSchemeResourceFinderFactory.java:90) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.create(JarZipSchemeResourceFinderFactory.java:66) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.addResourceFinder(PackageNamesScanner.java:283) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.init(PackageNamesScanner.java:199) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.<init>(PackageNamesScanner.java:155) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.PackageNamesScanner.<init>(PackageNamesScanner.java:111) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.ResourceConfig.packages(ResourceConfig.java:677) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.ResourceConfig.packages(ResourceConfig.java:657) ~[jersey-server-2.27.jar!/:na]
+	at se.erikwelander.apis.configuration.JerseyConfig.<init>(JerseyConfig.kt:17) ~[classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_212]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_212]
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Constructor.call(CallerImpl.kt:41) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:106) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflect_api(KCallableImpl.kt:152) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:110) ~[kotlin-reflect-1.3.21.jar!/:1.3.21-release-158 (1.3.21)]
+	at org.springframework.beans.BeanUtils$KotlinDelegate.instantiateClass(BeanUtils.java:751) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	... 86 common frames omitted
+Caused by: java.io.FileNotFoundException: /home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_212]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_212]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_212]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_212]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[na:1.8.0_212]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[na:1.8.0_212]
+	at java.net.URL.openStream(URL.java:1045) ~[na:1.8.0_212]
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.getInputStream(JarZipSchemeResourceFinderFactory.java:178) ~[jersey-server-2.27.jar!/:na]
+	at org.glassfish.jersey.server.internal.scanning.JarZipSchemeResourceFinderFactory.create(JarZipSchemeResourceFinderFactory.java:88) ~[jersey-server-2.27.jar!/:na]
+	... 104 common frames omitted
+
+2019-05-05 05:31:00.337  INFO 7818 --- [main] se.erikwelander.apis.ApisApplicationKt   : Starting ApisApplicationKt v0.0.1-SNAPSHOT on erikwelander with PID 7818 (/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar started by erik in /home/erik/IdeaProjects/apis)
+2019-05-05 05:31:00.340  INFO 7818 --- [main] se.erikwelander.apis.ApisApplicationKt   : No active profile set, falling back to default profiles: default
+2019-05-05 05:31:00.815  INFO 7818 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 05:31:00.887  INFO 7818 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 2 repository interfaces.
+2019-05-05 05:31:01.212  INFO 7818 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfiguration' of type [se.erikwelander.apis.configuration.DataSourceConfiguration$$EnhancerBySpringCGLIB$$7b93d586] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 05:31:01.566  INFO 7818 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 05:31:01.594  INFO 7818 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 05:31:01.594  INFO 7818 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 05:31:01.663  INFO 7818 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-05-05 05:31:01.663  INFO 7818 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1282 ms
+2019-05-05 05:31:01.888  INFO 7818 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-05 05:31:02.580  INFO 7818 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-05 05:31:02.614  INFO 7818 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-05 05:31:02.658  INFO 7818 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-05 05:31:02.659  INFO 7818 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-05 05:31:02.783  INFO 7818 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-05 05:31:02.969  INFO 7818 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-05 05:31:03.443  INFO 7818 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 05:31:03.680  INFO 7818 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-05 05:31:04.128  INFO 7818 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-05 05:31:04.129  INFO 7818 --- [main] se.erikwelander.apis.ApisApplicationKt   : Started ApisApplicationKt in 4.089 seconds (JVM running for 4.426)
+2019-05-05 05:31:07.179  INFO 7818 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 05:31:07.188  INFO 7818 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-05 05:31:07.194  INFO 7818 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-05 05:32:21.539  INFO 7957 --- [main] se.erikwelander.apis.ApisApplicationKt   : Starting ApisApplicationKt v0.0.1-SNAPSHOT on erikwelander with PID 7957 (/home/erik/IdeaProjects/apis/build/libs/apis-0.0.1-SNAPSHOT.jar started by erik in /home/erik/IdeaProjects/apis)
+2019-05-05 05:32:21.542  INFO 7957 --- [main] se.erikwelander.apis.ApisApplicationKt   : No active profile set, falling back to default profiles: default
+2019-05-05 05:32:22.003  INFO 7957 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-05 05:32:22.073  INFO 7957 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 2 repository interfaces.
+2019-05-05 05:32:22.379  INFO 7957 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceConfiguration' of type [se.erikwelander.apis.configuration.DataSourceConfiguration$$EnhancerBySpringCGLIB$$41b6d68f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-05 05:32:22.741  INFO 7957 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-05 05:32:22.765  INFO 7957 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-05 05:32:22.766  INFO 7957 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-05 05:32:22.829  INFO 7957 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-05-05 05:32:22.829  INFO 7957 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1237 ms
+2019-05-05 05:32:23.071  INFO 7957 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-05 05:32:23.181  INFO 7957 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-05 05:32:23.214  INFO 7957 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-05 05:32:23.268  INFO 7957 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-05 05:32:23.270  INFO 7957 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-05 05:32:23.411  INFO 7957 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-05 05:32:23.594  INFO 7957 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-05 05:32:24.030  INFO 7957 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 05:32:24.328  INFO 7957 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-05 05:32:24.782  INFO 7957 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-05 05:32:24.783  INFO 7957 --- [main] se.erikwelander.apis.ApisApplicationKt   : Started ApisApplicationKt in 3.56 seconds (JVM running for 3.918)
+2019-05-05 05:33:22.651  INFO 7957 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-05 05:33:22.657  INFO 7957 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-05 05:33:22.662  INFO 7957 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
